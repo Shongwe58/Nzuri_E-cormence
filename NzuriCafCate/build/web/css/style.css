@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap');
+
+body{
+
+    font-family: "Spline San", sans-serif;
+    color: #000000;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #222;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+a:hover{
+    color:rgb(243, 178, 15);
+}
+
+.back-ground, .navbar{
+    background-image: url(img/background.jpg);
+}
+
+.nav-link{
+    color:rgb(243, 178, 15);
+    font-weight: 100;
+}
+
+img{
+    width: 100%;
+} 
+
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+h6{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+h6::after,
+h6::before{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+.slide-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/SA-Dishes.jpeg");
+
+}
+
+.slide-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Bunny-Chow-South-African-Fast-Food.jpg");
+}
+
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.shadow-on-hover{
+    transition: all 0.3s;
+}
+
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.btn{
+    border-radius: 0;
+    padding: 14px 38px;
+}
+
+.btn-brand{
+    color:#fff;
+    font-weight: 500;
+    border-color: rgb(243, 178, 15);
+    background-color: rgb(243, 178, 15);
+}
+
+.btn-brand:hover{
+    border-color: rgb(141, 103, 7);
+    background-color: rgb(141, 103, 7);
+    color: #fff;
+}
+
+/*About*/
+#about .divider{
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color:  rgb(243, 178, 15);
+}
+
+/*intro text*/
+.intro-text{
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.intro-text p{
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+}
+
+/* Menu */
+#menu .nav-pills .nav-link{
+    background-color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #222;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+#menu .nav-pills .nav-link.active{
+    background-color: rgb(243, 178, 15);
+    color: white;
+}
+
+.menu-item{
+    color:rgb(0, 0, 0);
+}
+
+/* Footer */
+footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background.jpg");
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.72);
+
+}
+
+.cafe_name{
+    font-size: large;
+    text-align: center;
+    color: rgb(243, 178, 15);
+}
+
+.submit-btn {
+    background-color: rgb(243, 178, 15);
+    color: white;
+    border: none;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px; /* Adjust the value to change the roundness */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect */
+.submit-btn:hover {
+    background-color: black;
+    color: rgb(243, 178, 15);
+}
+
+/* Hide the default browser styles for input[type="submit"] */
+.submit-btn[type="submit"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
